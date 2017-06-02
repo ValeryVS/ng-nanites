@@ -1,6 +1,8 @@
 # NG Nanites - [Angular](http://angular.io/) modules library
 
-[![Build Status](https://travis-ci.org/ValeryVS/ng-nanites.svg?branch=master)](https://travis-ci.org/ValeryVS/ng-nanites)
+[![Build Status][travis-badge]][travis-badge-url]
+[![devDependency Status][david-dev-badge]][david-dev-badge-url]
+[![npm][npm-badge]][npm-badge-url]
 
 ### Develop
 
@@ -11,3 +13,12 @@
 - `npm run clean` to clean
 - `npm run integration` to run the integration e2e tests
 - `npm install ./relative/path/to/lib` after `npm run build` to test locally in another app
+
+[travis-badge]: https://travis-ci.org/ValeryVS/ng-nanites.svg?branch=master
+[travis-badge-url]: https://travis-ci.org/ValeryVS/ng-nanites
+[david-badge]: https://david-dm.org/ValeryVS/ng-nanites.svg
+[david-badge-url]: https://david-dm.org/ValeryVS/ng-nanites
+[david-dev-badge]: https://david-dm.org/ValeryVS/ng-nanites/dev-status.svg
+[david-dev-badge-url]: https://david-dm.org/ValeryVS/ng-nanites?type=dev
+[npm-badge]: https://img.shields.io/npm/v/@ng-nanites/ng-nanites.svg
+[npm-badge-url]: https://www.npmjs.com/package/@ng-nanites/ng-nanites
