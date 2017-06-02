@@ -44,6 +44,7 @@
     "lint": "npm run lint:lib && npm run lint:demo && npm run lint:integration",
     "lint:lib": "tslint -p src/lib/tsconfig.json --type-check --format verbose",
     "lint:demo": "tslint -p src/demo/tsconfig.json --type-check --format verbose",
+    "prelint:integration": "npm run build && cd integration && npm run clean && npm install",
     "lint:integration": "tslint -p integration/src/tsconfig.json --type-check --format verbose"
   },
   "peerDependencies": {
