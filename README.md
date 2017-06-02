@@ -1,5 +1,7 @@
 # NG Nanites - [Angular](http://angular.io/) modules library
 
+[![Build Status](https://travis-ci.org/ValeryVS/ng-nanites.svg?branch=master)](https://travis-ci.org/ValeryVS/ng-nanites)
+
 ### Develop
 
 - `npm start` to run a live-reload server with the demo app
