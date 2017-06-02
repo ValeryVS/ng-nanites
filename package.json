@@ -6,9 +6,16 @@
   "module": "./ng-nanites.es5.js",
   "es2015": "./ng-nanites.js",
   "typings": "./ng-nanites.d.ts",
-  "author": "",
+  "author": {
+    "name": "Minchenko Valery",
+    "email": "valery.vs.va@gmail.com",
+    "url": "https://github.com/ValeryVS"
+  },
   "license": "MIT",
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ValeryVS/ng-nanites.git"
+  },
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"
