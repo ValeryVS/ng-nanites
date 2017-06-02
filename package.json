@@ -35,7 +35,7 @@
     "build-test:watch": "tsc -p src/lib/tsconfig.spec.json -w",
     "pretest": "concurrently \"npm run build-test\" \"npm run build-scss\"",
     "test": "concurrently \"npm run build-test:watch\" \"npm run build-scss:watch\" \"karma start karma.conf.js\"",
-    "pretest:once": "concurrently \"npm run build-test\" \"npm run build-scss\"",
+    "pretest:once": "npm run build-test && npm run build-scss",
     "test:once": "karma start karma.conf.js --single-run",
     "preintegration": "npm run build && cd integration && npm run clean && npm install",
     "integration": "npm run integration:aot && npm run integration:jit",
