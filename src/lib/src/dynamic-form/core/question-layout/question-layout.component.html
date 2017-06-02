@@ -1,0 +1,14 @@
+<div
+  class="row">
+  <label
+    [attr.for]="id"
+    class="col-3 col-form-label">
+    {{question.label}}
+  </label>
+
+  <div class="col-9">
+    <ng-content select="[content]"></ng-content>
+  </div>
+
+  <div class="errorMessage" *ngIf="!isValid">значение не верно</div>
+</div>

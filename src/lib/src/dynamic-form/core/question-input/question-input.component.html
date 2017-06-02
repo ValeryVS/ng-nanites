@@ -1,0 +1,33 @@
+<ngn-question-layout
+  *ngIf="form && question"
+  [form]="form"
+  [formGroup]="form"
+  [question]="question"
+  [id]="id">
+
+  <ng-container
+    content
+    [ngSwitch]="question.type">
+
+    <input
+      *ngSwitchCase="'checkbox'"
+      [id]="id"
+      [attr.name]="question.key"
+      [formControlName]="question.key"
+      [type]="question.type"
+      class="form-control"
+      [(ngModel)]="question.value"
+      (change)="question.value = $event.target.checked"
+      [attr.checked]="question.value ? 'checked' : null">
+
+    <input
+      *ngSwitchDefault
+      [id]="id"
+      [attr.name]="question.key"
+      [formControlName]="question.key"
+      [type]="question.type"
+      class="form-control">
+
+  </ng-container>
+
+</ngn-question-layout>

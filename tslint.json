@@ -1,0 +1,74 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "import-blacklist": [
+      true,
+      "rxjs"
+    ],
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "max-line-length": [
+      true,
+      140
+    ],
+    "no-consecutive-blank-lines": [
+      true,
+      2
+    ],
+    "no-inferrable-types": [
+      true,
+      "ignore-params"
+    ],
+    "no-non-null-assertion": true,
+    "no-switch-case-fall-through": true,
+    "no-trailing-whitespace": [
+      true,
+      "ignore-template-strings"
+    ],
+    "no-use-before-declare": true,
+    "object-literal-sort-keys": false,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "directive-selector": [
+      true,
+      "attribute",
+      ["ngn"],
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      ["ngn"],
+      "kebab-case"
+    ],
+    "use-input-property-decorator": true,
+    "use-output-property-decorator": true,
+    "use-host-property-decorator": true,
+    "no-input-rename": true,
+    "no-output-rename": true,
+    "use-life-cycle-interface": true,
+    "use-pipe-transform-interface": true,
+    "component-class-suffix": true,
+    "directive-class-suffix": true,
+    "no-access-missing-member": true,
+    "templates-use-public": true,
+    "invoke-injectable": true
+  },
+  "rulesDirectory": [
+    "node_modules/codelyzer"
+  ]
+}

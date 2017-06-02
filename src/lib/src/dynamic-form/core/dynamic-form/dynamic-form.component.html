@@ -1,0 +1,23 @@
+<form
+  (ngSubmit)="onSubmit()"
+  [formGroup]="form">
+
+  <div
+    *ngFor="let question of questions"
+    class="form-group">
+    <!--<ngn-dynamic-form-question [question]="question" [form]="form"></ngn-dynamic-form-question>-->
+    <ngn-dynamic-component-wrapper
+      [component]="question.component"
+      ngnDynamicFormQuestion
+      [question]="question"
+      [form]="form">
+    </ngn-dynamic-component-wrapper>
+  </div>
+
+  <button
+    type="submit"
+    [disabled]="!form.valid"
+    class="btn btn-primary">
+    Save
+  </button>
+</form>
