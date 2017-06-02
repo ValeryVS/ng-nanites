@@ -34,7 +34,7 @@
       rxjs: {
         defaultExtension: 'js'
       },
-      '@vvv/ng-nanites': {
+      '@ng-nanites/ng-nanites': {
         main: 'index.js',
         defaultExtension: 'js'
       }

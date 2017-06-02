@@ -3,7 +3,7 @@
   "version": "0.1.0-alpha.0",
   "description": "App for integration tests",
   "scripts": {
-    "clean": "rimraf aot/ dist/ out-tsc/ node_modules/@vvv/ng-nanites/",
+    "clean": "rimraf aot/ dist/ out-tsc/ node_modules/@ng-nanites/ng-nanites/",
     "build": "tsc -p src/",
     "build:watch": "tsc -p src/ -w",
     "build:e2e": "tsc -p e2e/",
@@ -32,7 +32,7 @@
     "@angular/forms": "^4.0.0-rc.3",
     "@angular/platform-browser": "^4.0.0-rc.3",
     "@angular/platform-browser-dynamic": "^4.0.0-rc.3",
-    "@vvv/ng-nanites": "../dist/",
+    "@ng-nanites/ng-nanites": "../dist/",
     "core-js": "^2.4.1",
     "rxjs": "5.0.1",
     "systemjs": "0.19.40",

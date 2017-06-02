@@ -1,5 +1,5 @@
 {
-  "name": "@vvv/ng-nanites",
+  "name": "@ng-nanites/ng-nanites",
   "version": "0.1.0-alpha.0",
   "description": "Angular modules library",
   "main": "./ng-nanites.umd.js",

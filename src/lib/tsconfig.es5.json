@@ -15,7 +15,7 @@
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "ng-nanites.js",
-    "flatModuleId": "@vvv/ng-nanites",
+    "flatModuleId": "@ng-nanites/ng-nanites",
     "genDir": "../../out-tsc/lib-gen-dir/"
   }
 }

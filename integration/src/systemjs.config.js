@@ -26,7 +26,7 @@
       // other libraries
       'rxjs': 'npm:rxjs',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
-      '@vvv/ng-nanites': 'npm:@vvv/ng-nanites/bundles/ng-nanites.umd.js'
+      '@ng-nanites/ng-nanites': 'npm:@ng-nanites/ng-nanites/bundles/ng-nanites.umd.js'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {

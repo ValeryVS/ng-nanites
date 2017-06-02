@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgnNotificationService } from '@vvv/ng-nanites';
+import { NgnNotificationService } from '@ng-nanites/ng-nanites';
 
 @Component({
   selector: 'ngn-app-integration',

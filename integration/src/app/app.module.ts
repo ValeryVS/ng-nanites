@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgnNotificationModule } from '@vvv/ng-nanites';
+import { NgnNotificationModule } from '@ng-nanites/ng-nanites';
 
 import { AppComponent } from './app.component';
 
