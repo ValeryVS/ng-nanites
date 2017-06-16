@@ -22,3 +22,8 @@ export * from './src/notification/notification.service';
 // unsubscribe
 export * from './src/unsubscribe/unsubscribe-on-destroy';
 export * from './src/unsubscribe/unsubscribe';
+
+// rx
+export * from './src/rx/actions/common';
+export * from './src/rx/effects/common';
+export * from './src/rx/reducers/common';
