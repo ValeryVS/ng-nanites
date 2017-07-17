@@ -25,6 +25,9 @@
 
       // other libraries
       'rxjs': 'npm:rxjs',
+      '@ngrx/core': 'npm:@ngrx/core/bundles/core.umd.js',
+      '@ngrx/store': 'npm:@ngrx/store/bundles/store.umd.js',
+      '@ngrx/effects': 'npm:@ngrx/effects/bundles/effects.umd.js',
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {

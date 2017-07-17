@@ -33,8 +33,11 @@
     "@angular/platform-browser": "^4.0.0-rc.3",
     "@angular/platform-browser-dynamic": "^4.0.0-rc.3",
     "@ng-nanites/ng-nanites": "../dist/",
+    "@ngrx/core": "^1.2.0",
+    "@ngrx/effects": "^2.0.4",
+    "@ngrx/store": "^2.2.3",
     "core-js": "^2.4.1",
-    "rxjs": "5.0.1",
+    "rxjs": "^5.4.0",
     "systemjs": "0.19.40",
     "zone.js": "^0.8.4"
   },

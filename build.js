@@ -62,14 +62,31 @@ return Promise.resolve()
         // See https://github.com/rollup/rollup/wiki/JavaScript-API#globals for more.
         '@angular/common': 'ng.common',
         '@angular/core': 'ng.core',
-        '@angular/forms': 'ng.forms'
+        '@angular/forms': 'ng.forms',
+        '@ngrx/core': 'ngrx.core',
+        '@ngrx/store': 'ngrx.store',
+        '@ngrx/effects': 'ngrx.effects',
+        'rxjs/observable/of': 'rxjs.observable.of'
       },
       external: [
         // List of dependencies
         // See https://github.com/rollup/rollup/wiki/JavaScript-API#external for more.
         '@angular/common',
         '@angular/core',
-        '@angular/forms'
+        '@angular/forms',
+        '@ngrx/core',
+        '@ngrx/store',
+        '@ngrx/effects',
+        'rxjs/add/operator/catch',
+        'rxjs/add/operator/debounceTime',
+        'rxjs/add/operator/filter',
+        'rxjs/add/operator/groupBy',
+        'rxjs/add/operator/map',
+        'rxjs/add/operator/mergeAll',
+        'rxjs/add/operator/mergeMap',
+        'rxjs/add/operator/skip',
+        'rxjs/add/operator/takeUntil',
+        'rxjs/observable/of',
       ],
       plugins: [
         sourcemaps()

@@ -1,7 +1,7 @@
-import { Constructor } from '@ng-nanites/ng-nanites';
 import { Action } from '@ngrx/store';
 import { createSelector } from 'reselect';
 
+import { Constructor } from '../../common/types/constructor';
 import * as commonActions from '../actions/common';
 
 export interface CommonEntity {
